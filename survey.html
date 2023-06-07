@@ -1,0 +1,46 @@
+Here is an example survey form with 8 survey questions:
+
+index.html:
+<html>
+<head>
+ <title>Survey Form</title>
+</head>
+<body style="background-color:skyblue;">
+
+<h1>Designer Survey</h1>
+
+<form action="submit_form.html">
+<label>What is your name?</label>
+<input type="text" name="name"><br><br>
+
+<label>What phone do you prefer?</label>
+<input type="radio" name="phone" value="iPhone"> iPhone
+<input type="radio" name="phone" value="Samsung"> Samsung
+<input type="radio" name="phone" value="Other"> Other<br><br>
+
+<label>What laptop do you prefer?</label>
+<select name="laptop">
+  <option value="Macbook">Macbook</option>
+  <option value="Dell">Dell</option>  
+  <option value="HP">HP</option>
+</select><br><br>
+  
+<label>What design tools do you use?</label>  
+<input type="checkbox" name="tools" value="Photoshop"> Photoshop
+<input type="checkbox" name="tools" value="Illustrator"> Illustrator  
+<input type="checkbox" name="tools" value="InDesign"> InDesign<br><br>
+
+<label>Rate your design skills (1-10): </label>    
+<input type="range" name="rating" min="1" max="10"><br><br>
+
+<label>Additional comments:</label>
+<textarea name="comments" rows="5" cols="40"></textarea><br><br>
+
+<input type="submit" value="Submit">  
+
+</form>
+
+</body> 
+</html>
+
+Thankyou for going through the survey
